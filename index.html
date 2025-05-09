@@ -6,36 +6,44 @@
     <title>개발자 포트폴리오</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- 내비게이션 바 -->
     <nav class="navbar">
         <div class="container">
-            <div class="logo">홍길동</div>
+            <div class="logo">
+                <h1>DT LAB</h1>
+                <p class="tagline">Semiconductor Design Technology</p>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#members" class="nav-link">Members</a></li>
+                <li><a href="#research" class="nav-link">Research</a></li>
+                <li><a href="#publications" class="nav-link">Publications</a></li>
+                <li><a href="#awards" class="nav-link">Awards & Honors</a></li>
+                <li><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li><a href="#" class="nav-search"><i class="fas fa-search"></i></a></li>
+            </ul>
             <div class="nav-toggle">
                 <span></span>
                 <span></span>
                 <span></span>
             </div>
-            <ul class="nav-menu">
-                <li><a href="#home" class="nav-link active">Home</a></li>
-                <li><a href="#about" class="nav-link">소개</a></li>
-                <li><a href="#skills" class="nav-link">기술 스택</a></li>
-                <li><a href="#projects" class="nav-link">포트폴리오</a></li>
-                <li><a href="#contact" class="nav-link">연락처</a></li>
-            </ul>
         </div>
     </nav>
     
     <!-- 헤더 섹션 -->
     <header id="home">
-        <div class="container">
-            <h1>홍길동</h1>
-            <p>소프트웨어 엔지니어 / 웹 개발자</p>
-            <div class="social-icons">
-                <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="mailto:email@example.com"><i class="fas fa-envelope"></i></a>
+        <div class="header-content container">
+            <div class="header-image">
+                <img src="images/header-bg.jpg" alt="Design Technology">
+            </div>
+            <div class="header-text">
+                <h1>DESIGN TECHNOLOGY LAB</h1>
+                <p>We research electronic design automation (EDA)</p>
             </div>
         </div>
     </header>
