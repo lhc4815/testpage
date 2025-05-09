@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>개발자 포트폴리오</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <!-- 내비게이션 바 -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">홍길동</div>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">소개</a></li>
+                <li><a href="#skills" class="nav-link">기술 스택</a></li>
+                <li><a href="#projects" class="nav-link">포트폴리오</a></li>
+                <li><a href="#contact" class="nav-link">연락처</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- 헤더 섹션 -->
+    <header id="home">
+        <div class="container">
+            <h1>홍길동</h1>
+            <p>소프트웨어 엔지니어 / 웹 개발자</p>
+            <div class="social-icons">
+                <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:email@example.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- 소개 섹션 -->
+    <section id="about">
+        <div class="container">
+            <h2>소개</h2>
+            <div class="about-content">
+                <div class="profile-pic">
+                    <img src="images/profile.jpg" alt="프로필 사진">
+                </div>
+                <div class="about-text">
+                    <p>안녕하세요! 저는 웹 개발에 열정을 가진 소프트웨어 엔지니어입니다. 사용자 경험을 개선하고 문제를 해결하는 창의적인 솔루션을 개발하는 것을 좋아합니다.</p>
+                    <p>3년 동안의 프론트엔드 및 백엔드 개발 경험을 바탕으로, 효율적이고 확장 가능한 웹 애플리케이션을 구축하는 데 전문성을 갖추고 있습니다.</p>
+                    <a href="resume.pdf" class="btn" target="_blank">이력서 다운로드</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 기술 스택 섹션 -->
+    <section id="skills">
+        <div class="container">
+            <h2>기술 스택</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>프론트엔드</h3>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>Vue.js</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>백엔드</h3>
+                    <ul>
+                        <li>Node.js</li>
+                        <li>Express</li>
+                        <li>Python</li>
+                        <li>Django</li>
+                        <li>RESTful API</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>기타</h3>
+                    <ul>
+                        <li>Git</li>
+                        <li>Docker</li>
+                        <li>AWS</li>
+                        <li>MongoDB</li>
+                        <li>MySQL</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 프로젝트 섹션 -->
+    <section id="projects">
+        <div class="container">
+            <h2>프로젝트</h2>
+            <div class="projects-grid">
+                <!-- 프로젝트 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project1.jpg" alt="프로젝트 1">
+                    </div>
+                    <div class="project-info">
+                        <h3>오픈 마켓 웹 애플리케이션</h3>
+                        <p>React와 Node.js를 사용한 전체 스택 이커머스 플랫폼입니다. 사용자 인증, 제품 목록, 장바구니 기능을 포함합니다.</p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-sm" target="_blank">라이브 데모</a>
+                            <a href="#" class="btn btn-sm" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 프로젝트 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project2.jpg" alt="프로젝트 2">
+                    </div>
+                    <div class="project-info">
+                        <h3>날씨 대시보드</h3>
+                        <p>Vue.js와 OpenWeatherMap API를 사용하여 구축한 날씨 애플리케이션으로, 실시간 날씨 정보와 5일 예보를 제공합니다.</p>
+                        <div class="project-tags">
+                            <span>Vue.js</span>
+                            <span>REST API</span>
+                            <span>Chart.js</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-sm" target="_blank">라이브 데모</a>
+                            <a href="#" class="btn btn-sm" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 프로젝트 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project3.jpg" alt="프로젝트 3">
+                    </div>
+                    <div class="project-info">
+                        <h3>블로그 플랫폼</h3>
+                        <p>Django와 Python으로 개발한 블로그 웹사이트입니다. 사용자 관리, 게시물 작성, 댓글 시스템을 구현했습니다.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Django</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-sm" target="_blank">라이브 데모</a>
+                            <a href="#" class="btn btn-sm" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 연락처 섹션 -->
+    <section id="contact">
+        <div class="container">
+            <h2>연락처</h2>
+            <p>새로운 기회나 협업에 관심이 있으시면 연락주세요:</p>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>email@example.com</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <p>010-1234-5678</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>서울특별시, 대한민국</p>
+                </div>
+            </div>
+            <form id="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="이름" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="이메일" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" placeholder="메시지" required></textarea>
+                </div>
+                <button type="submit" class="btn">메시지 보내기</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- 푸터 섹션 -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 홍길동. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
